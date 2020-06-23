@@ -1,0 +1,92 @@
+body{
+  padding: 30px 10vh;
+  background: url("../images/intro.jpg") center no-repeat;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.uploadImg {
+  height:  130px;
+  width:  110px;
+}
+
+.container {
+  background-color: #EBE4F1;
+  padding: 5px 20px 15px 20px;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 80%;
+  margin-left: 100px;
+    align-self: center;
+}
+
+input[type=text] {
+  width: 95%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+input[type=email] {
+  width: 95%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.button {
+  background-color: indigo;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background .15s linear
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+  font-size: 4vh;
+}
+.error {
+  width  : 100%;
+  padding: 0;
+ 
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+ 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+/*input:invalid{
+  border-color: #900;
+  background-color: #FDD;
+}*/
+
+input:focus:invalid {
+  outline: none;
+}

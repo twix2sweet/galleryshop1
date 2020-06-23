@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.empty{
+  width: 100%;
+  height: 127px;
+}
+.ord__text{
+  padding: 7px;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3vh;
+  background-color: #A9A9A9;
+  border: solid black 3px;
+}
+.ch__fon{
+  width: 100%;
+    background-color: #C0C0C0;
+}
+.ch__back{
+  margin: 0 120px;
+  background-color: #F5F5F5;
+	font-size: 22px;
+  font-family: 'Gelasio', cursive;
+  border-left: solid black 3px;
+  border-right: solid black 3px;
+
+}
+.supimg{
+  margin: 30px;
+}
+iframe{
+
+}
